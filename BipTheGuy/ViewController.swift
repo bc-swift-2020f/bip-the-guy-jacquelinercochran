@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        imagePickerController.delegate = self
         // Do any additional setup after loading the view.
     }
 
